@@ -20,10 +20,11 @@ form{
 }
 .theLanguage{
     padding: 12px;
-    border: 1px solid;
+    border: 1px solid rgba(17, 15, 15, 0.715);
     width: 80%;
     border-radius: 40px;
     line-height: 20px;
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
 
 }
 .submit{
