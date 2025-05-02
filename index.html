@@ -5,22 +5,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
     <link rel="stylesheet" href="style.css" />
+    <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>
   </head>
   <body>
     <div class="container">
       <h1>Give me the language and get an I Love You</h1>
       <main>
-        <form action="">
+        <form action="" id="language-form">
           <input
             type="text"
             placeholder="enter the language"
             class="theLanguage"
             required
             autofocus
+            id="userInstruction"
           />
+
           <input type="submit" class="submit" />
         </form>
-        <div class="IloveYou">the i love you</div>
+        <div id="IloveYou" class="IloveYou">
+          <div class="" id="loader"></div>
+        </div>
       </main>
       <footer>
         This is open source in
